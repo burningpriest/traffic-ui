@@ -65,6 +65,7 @@ WSL can also be used instead of Git Bash.
 ## Application
 
 Once the script has finished starting the services, open the application using the URL shown in the terminal.
+will be http://localhost:3000, you can also get it from the terminal once the " Traffic Frontend Started" shows up
 
 ## Stopping the Application
 
