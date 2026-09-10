@@ -1,0 +1,41 @@
+{
+  "title": "Traffic Explorer",
+  "subtitle": "Motor vehicle movements by country, year and vehicle type",
+  "filters": {
+    "reportingYear": "Reporting year",
+    "allAvailableYears": "All available years",
+    "vehicleType": "Vehicle type",
+    "allVehicleTypes": "All vehicle types",
+    "year": "Year: {year}",
+    "country": "Country: {country}",
+    "vehicle": "Vehicle: {vehicle}",
+    "reset": "Reset"
+  },
+  "states": {
+    "error": "Unable to load traffic data. Please try again.",
+    "loading": "Loading traffic data…"
+  },
+  "countryChart": {
+    "title": "Country-wise traffic",
+    "selectedVehicle": "{vehicle} traffic",
+    "allVehicleTypes": "All vehicle types",
+    "countries": "{count} countries",
+    "movements": "{count} vehicle movements",
+    "tooltip": "Traffic",
+    "hint": "Click a country to see its vehicle distribution."
+  },
+  "vehicleChart": {
+    "title": "Vehicle type distribution",
+    "selectedCountry": "Traffic in {country}",
+    "allCountries": "All reporting countries",
+    "tooltip": "Traffic",
+    "hint": "Click a vehicle type to filter the country chart."
+  },
+  "vehicleTypes": {
+    "Car": "Car",
+    "Truck": "Truck",
+    "Bus": "Bus",
+    "Motorcycle": "Motorcycle",
+    "Van": "Van"
+  }
+}

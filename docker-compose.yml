@@ -1,0 +1,15 @@
+  services:
+    frontend:
+      build:
+        context: .
+        dockerfile: Dockerfile
+      container_name: traffic-frontend
+      ports:
+        - "3000:80"
+      restart: unless-stopped
+      networks:
+        - traffic-network
+
+  networks:
+    traffic-network:
+      external: true
